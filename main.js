@@ -3,7 +3,7 @@ const desktopMenu = document.querySelector(".desktop-menu");
 const mobileMenu = document.querySelector(".mobile-menu");
 const imgMenu = document.querySelector(".menu");
 const iconCart = document.querySelector(".navbar-shopping-cart");
-const asideCart = document.querySelector(".product-detail");
+const asideCart = document.querySelector(".shoppingCartContainer");
 const cardContainer = document.querySelector(".cards-container");
 
 navBarMail.addEventListener("click", toggleDesktopMenu);
@@ -92,7 +92,7 @@ function renderArrays(arr) {
     productCard.appendChild(imgProduct);
 
     const divProductInfo = document.createElement("div");
-    divProductInfo.classList.add("product-info");
+    divProductInfo.classList.add("product-info-cards");
     productCard.appendChild(divProductInfo);
 
     const divTextos = document.createElement("div");
