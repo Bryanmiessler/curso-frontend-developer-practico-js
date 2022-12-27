@@ -257,6 +257,7 @@ nav {
   height: 240px;
   border-radius: 20px;
   object-fit: cover;
+  cursor: pointer;
 }
 .product-info-cards {
   display: flex;
@@ -270,6 +271,7 @@ nav {
 .product-info-cards figure img {
   width: 35px;
   height: 35px;
+
 }
 .product-info-cards div p:nth-child(1) {
   font-weight: bold;
@@ -288,6 +290,7 @@ nav {
 
 .product-detail {
   width: 360px;
+  background-color: var(--white);
   padding-bottom: 24px;
   position: absolute;
   right: 0;
@@ -327,7 +330,7 @@ nav {
   margin-top: 0;
   margin-bottom: 36px;
 }
-.product-info-detail-detail p:nth-child(3) {
+.product-info-detail p:nth-child(3) {
   color: var(--very-light-pink);
   font-size: var(--sm);
   margin-top: 0;
